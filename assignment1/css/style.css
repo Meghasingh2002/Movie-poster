@@ -1,0 +1,90 @@
+/* Reset styles for the body element */
+body{
+    padding: 0;
+    margin: 0;
+}
+/* Styles for images that are direct children of figure elements */
+
+figure > img{
+    display: block;
+    margin: auto;
+    width: 40%;
+/*width is there for settling  the width of the image */
+    height: 25%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p1 */
+
+.p1 > p{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 24px;
+    letter-spacing:15px;
+    color: white; /* this is for changing and setting up the colour of the font */
+    top:4%;
+    right:38%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p2 */
+.p2 > p{
+    font-family: 'Aldrich', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    color: darkgray; /* this is to set up the colour of the main heading or name of the movie */
+    letter-spacing: 15px;
+    top: 89%;
+    left: 37%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p3 */
+.p3 > p{
+    font-family: 'Aldrich', sans-serif;
+    position: absolute;
+    font-size: 43px; /* changes the font size */
+    color: darkgray;
+    letter-spacing: 3px;
+    top: 96%;
+    left: 42.5%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p4 */
+.p4 > p{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 24px;
+    letter-spacing:4px; /* for giving the space in between the letters in the image */
+    color: white;
+    top: 105%;
+    left:40%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p5 */
+.p5 > p{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing:4px;
+    color: white;
+    top: 108.5%;
+    left:44%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p6 */
+.p6 > p{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 8px;
+    letter-spacing:1px;
+    color: white;
+    top: 113.5%;
+    left:46%;
+}
+/* Styles for paragraphs that are direct children of elements with class .p7 */
+.p7 > p{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 8px;
+    letter-spacing:0px;
+    color: white;
+    top: 114.5%;
+    left:47%;
+}
+/* Styles for elements with class .p8 */
+.p8{
+    font-family: 'Roboto', SansSerif;
+    font-size: 40px;
+}
